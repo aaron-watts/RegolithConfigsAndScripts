@@ -1,0 +1,12 @@
+#!/bin/bash
+
+## Simple bash script to perform DDG serach from rofi command menu
+
+query=""
+
+for word in "$@"
+do
+  query+="$word%20"
+done
+
+flatpak run com.github.Eloston.UngoogledChromium "https://www.duckduckgo.com?q=$query"
