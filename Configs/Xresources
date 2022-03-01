@@ -14,6 +14,7 @@ i3-wm.bar.workspace.urgent.border.color: #D8754E
 i3-wm.program.unclutter: :
 
 i3xrocks.label.color: #778888
+i3xrocks.action.cpu-usage: "i3 [title="htop"] scratchpad show"
 i3xrocks.action.time: "i3 [instance="(gnome-calendar)"] scratchpad show"
 
 gnome.terminal.font: JetBrains Mono 10
@@ -25,3 +26,4 @@ gnome.wallpaper:
 
 i3-wm.program.1: /home/aaron/System_Scripts/Regolith/calendar/regolith_cal_notify.py
 i3-wm.program.2: /usr/bin/gnome-calendar
+i3-wm.program.3: /home/aaron/.local/bin/kitty -e htop

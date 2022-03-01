@@ -242,7 +242,7 @@ bindsym $mod+$i3-wm.binding.next_free exec --no-startup-id /usr/bin/i3-next-work
 
 ## Navigate // Scratchpad // <><Ctrl> a ##
 set_from_resource $i3-wm.binding.scratchpad i3-wm.binding.scratchpad Ctrl+a
-bindsym $mod+$i3-wm.binding.scratchpad [instance="^((?!gnome-calendar).)*$"] scratchpad show
+bindsym $mod+$i3-wm.binding.scratchpad [instance="^((?!gnome-calendar).)*$" title="^((?!htop).)*$"] scratchpad show
 
 ###############################################################################
 # Window and Workspace Configuration
@@ -497,6 +497,7 @@ for_window [class="Repoman"] floating enable
 for_window [class="Gcolor3"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Gnome-calendar"] move scratchpad, resize set 1200 700
+for_window [title="htop"] move scratchpad, resize set 900 600
 for_window [class="whatsdesk"] floating enable, move to workspace $ws10
 for_window [class="Spotify"] move to workspace $ws9
 for_window [title="Shortwave"] floating enable, move to workspace $ws9
