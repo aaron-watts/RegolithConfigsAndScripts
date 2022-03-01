@@ -1,3 +1,4 @@
 #!/bin/bash
 
-terminator --working-directory="$(pwd)"
+#terminator --working-directory="$(pwd)"
+$HOME/.local/bin/kitty --working-directory="$(pwd)"
