@@ -1,10 +1,12 @@
-i3-wm.font: pango:Source Code Pro Light 11
+i3-wm.font: pango:Google Sans 11
+i3-wm.bar.font: pango:Google Sans 12, FontAwesome 10
+rofi.font: Google Sans 14
+
 i3-wm.gaps.inner.size: 10
 i3-wm.gaps.outer.size: 10
 i3-wm.client.focused.color.child_border: #B4AEAD
 i3-wm.client.focused.color.background: #D8754E
 i3-wm.bar.position: top
-i3-wm.bar.font: pango:JetBrains Mono Light 8, FontAwesome 10
 i3-wm.bar.trayoutput: none
 i3-wm.bar.workspace.focused.background.color: #4C4C4C
 i3-wm.bar.workspace.focused.border.color: #4C4C4C
