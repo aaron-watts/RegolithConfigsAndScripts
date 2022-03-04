@@ -500,7 +500,7 @@ for_window [class="Gnome-calendar"] move scratchpad, resize set 1200 700
 for_window [title="htop"] move scratchpad, resize set 900 600
 for_window [class="whatsdesk"] floating enable, move to workspace $ws10
 for_window [class="Spotify"] move to workspace $ws9
-for_window [title="Shortwave"] floating enable, move to workspace $ws9
+for_window [class="^$|\s+" title="Shortwave"] floating enable, move to workspace $ws9
 
 set_from_resource $i3-wm.workspace.auto_back_and_forth i3-wm.workspace.auto_back_and_forth no
 workspace_auto_back_and_forth $i3-wm.workspace.auto_back_and_forth
